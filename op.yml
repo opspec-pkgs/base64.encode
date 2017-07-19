@@ -1,4 +1,4 @@
-name: base64.encode
+name: github.com/opspec-pkgs/base64.encode
 description: base 64 encodes a string per RFC4648
 inputs:
   rawValue:
