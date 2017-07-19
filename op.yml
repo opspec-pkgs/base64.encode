@@ -1,0 +1,19 @@
+name: base64.encode
+description: base 64 encodes a string per RFC4648
+inputs:
+  rawValue:
+    string:
+      description: string to encode
+outputs:
+  encodedValue:
+    string:
+      description: encoded string
+version: 1.0.0
+run:
+  container:
+    image: { ref: 'node:8.1.0-alpine' }
+    cmd: [node, /index.js]
+    envVars: { rawValue }
+    files: { /index.js }
+    stdOut:
+      encodedValue=: encodedValue
