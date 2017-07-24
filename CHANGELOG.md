@@ -5,11 +5,5 @@ All notable changes will be documented in this file in accordance with
 
 ## \[Unreleased]
 
-## \[1.1.0] - 2017-07-22
-
-### Changed
-
-- Use aufs as storage driver to avoid disk space errors during build
-
-## \[1.0.0] - 2017-06-01
+## \[1.0.0] - 2017-07-18
 
