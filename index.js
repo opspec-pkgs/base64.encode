@@ -1,1 +1,0 @@
-console.log(`encodedValue=${Buffer.from(process.env.rawValue).toString('base64')}`);
