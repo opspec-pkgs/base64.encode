@@ -14,20 +14,20 @@ this version of the pkg is in [![opspec 0.1.5](https://img.shields.io/badge/opsp
 ## Install
 
 ```shell
-opctl pkg install github.com/opspec-pkgs/base64.encode#1.0.0
+opctl pkg install github.com/opspec-pkgs/base64.encode#1.0.1
 ```
 
 ## Run
 
 ```
-opctl run github.com/opspec-pkgs/base64.encode#1.0.0
+opctl run github.com/opspec-pkgs/base64.encode#1.0.1
 ```
 
 ## Compose
 
 ```yaml
 op:
-pkg: { ref: github.com/opspec-pkgs/base64.encode#1.0.0 }
+pkg: { ref: github.com/opspec-pkgs/base64.encode#1.0.1 }
 inputs:
     rawValue:
 outputs:
