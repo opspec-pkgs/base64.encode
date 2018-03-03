@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/opspec-pkgs/base64.encode.svg?branch=master)](https://travis-ci.org/opspec-pkgs/base64.encode)
 
-
 # Problem statement
 
 base 64 encodes a string per RFC4648
@@ -27,10 +26,10 @@ opctl run github.com/opspec-pkgs/base64.encode#1.0.1
 
 ```yaml
 op:
-pkg: { ref: github.com/opspec-pkgs/base64.encode#1.0.1 }
-inputs:
+  pkg: { ref: github.com/opspec-pkgs/base64.encode#1.0.1 }
+  inputs:
     rawValue:
-outputs:
+  outputs:
     encodedValue:
 ```
 
